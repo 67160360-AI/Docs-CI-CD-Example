@@ -44,6 +44,7 @@ def test_average_empty_list():
 
 
 def test_pass_rate():
+    # ตรวจสอบการคำนวณอัตราการสอบผ่าน (คะแนน >= 50)
     assert pass_rate([80, 50, 40, 30]) == 50
 
 
